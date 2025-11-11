@@ -1,51 +1,56 @@
-# ☀️ SSR Weather Watch: Real-Time Weather Application
+## ☀️ SSR Weather Watch: Real-Time Weather Application
 
 A fast, server-side rendered (SSR) web application providing **real-time weather updates** for any city worldwide, powered by the OpenWeatherMap API. User search history is securely managed using Firebase.
 
----
+-----
 
 ## ✨ Features
 
-* **Real-Time Data:** Fetches current, accurate weather data for any requested city.
-* **Server-Side Rendering (SSR):** Built with **Express.js** for improved performance and SEO.
-* **Dynamic Templates:** Utilizes **EJS** (Embedded JavaScript Templating) for generating dynamic HTML content.
-* **Search History:** Stores and retrieves user's previous city searches in **Firebase**.
-* **Modern UI:** Clean, responsive interface styled efficiently with **Tailwind CSS**.
-* **Smooth UX:** Enhanced user experience with smooth transitions and animations via **Motion**.
+  * **Real-Time Data:** Fetches current, accurate weather data for any requested city.
+  * **Server-Side Rendering (SSR):** Built with **Express.js** for improved performance and SEO.
+  * **Dynamic Templates:** Utilizes **EJS** (Embedded JavaScript Templating) for generating dynamic HTML content.
+  * **Search History:** Stores and retrieves user's previous city searches in **Firebase**.
+  * **Modern UI:** Clean, responsive interface styled efficiently with **Tailwind CSS**.
+  * **Smooth UX:** Enhanced user experience with smooth transitions and animations via **Motion**.
 
----
+-----
 
 ## 💻 Tech Stack
 
 ### Backend & Core
-* **Runtime:** Node.js
-* **Framework (SSR):** Express.js
-* **Templating:** EJS (Embedded JavaScript)
+
+  * **Runtime:** Node.js
+  * **Framework (SSR):** Express.js
+  * **Templating:** EJS (Embedded JavaScript)
 
 ### Frontend & Styling
-* **Languages:** HTML5, CSS3, JavaScript
-* **Styling Framework:** Tailwind CSS
-* **Animations:** Motion
+
+  * **Languages:** HTML5, CSS3, JavaScript
+  * **Styling Framework:** Tailwind CSS
+  * **Animations:** Motion
 
 ### Data & Services
-* **Database:** Firebase (for user search history)
-* **API:** OpenWeatherMap API (for real-time weather data)
 
----
+  * **Database:** Firebase (for user search history)
+  * **API:** OpenWeatherMap API (for real-time weather data)
+
+-----
 
 ## ⚙️ Installation Guide
 
 1.  **Clone the repository:**
+
     ```bash
     git clone <repo-url>
     cd weather-app
     ```
 
 2.  **Install dependencies:**
+
     ```bash
     npm install
     ```
-    
+
 3.  **Configure Environment Variables:**
     Create a file named **`.env`** in the root directory and add your keys.
 
@@ -55,6 +60,7 @@ A fast, server-side rendered (SSR) web application providing **real-time weather
     ```
 
 4.  **Start the server:**
+
     ```bash
     npm start
     ```
@@ -62,25 +68,24 @@ A fast, server-side rendered (SSR) web application providing **real-time weather
 5.  **Access the application:**
     Open `http://localhost:3000` in your web browser.
 
----
+-----
 
 ## 💡 Usage
 
-* **Search:** Enter a city name in the search bar and hit enter to get current weather details.
-* **History:** View your previously searched cities displayed below the main search area (powered by Firebase).
-* **Experience:** Enjoy a fast, responsive design with smooth UI animations across all devices.
+  * **Search:** Enter a city name in the search bar and hit enter to get current weather details.
+  * **History:** View your previously searched cities displayed below the main search area (powered by Firebase).
+  * **Experience:** Enjoy a fast, responsive design with smooth UI animations across all devices.
 
----
+-----
 
 ## 🧠 Key Learnings
 
-* **SSR Development:** Building robust Server-Side Rendered applications with **Express.js** and dynamic templating using **EJS**.
-* **API Integration:** Successfully integrating and managing data from a third-party service like **OpenWeatherMap**.
-* **Data Persistence:** Implementing data storage and retrieval using a NoSQL cloud database, **Firebase**.
-* **UI/UX:** Leveraging **Tailwind CSS** and the **Motion** library to create interactive and visually appealing interfaces.
-* **Core Concepts:** Strengthening fundamental knowledge of HTML5, JavaScript, and CSS3 for dynamic web development.
+  * **SSR Development:** Building robust Server-Side Rendered applications with **Express.js** and dynamic templating using **EJS**.
+  * **API Integration:** Successfully integrating and managing data from a third-party service like **OpenWeatherMap**.
+  * **Data Persistence:** Implementing data storage and retrieval using a NoSQL cloud database, **Firebase**.
+  * **UI/UX:** Leveraging **Tailwind CSS** and the **Motion** library to create interactive and visually appealing interfaces.
 
----
+-----
 
 ## 📜 License
 
